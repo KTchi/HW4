@@ -1,0 +1,48 @@
+@charset "utf-8";
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: #36D990;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+    line-height: 100px;
+    text-align: center;
+}
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: #2ECCCA;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+    line-height: 100px;
+    text-align: center;
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: #4E9DFC;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+    line-height: 100px;
+    text-align: center;
+}
+.box1:hover {
+    background-color: #ECCB41;
+    font-size: x-large;
+	transform: translateX(10px) translateY(10px);
+}
+.box2:hover {
+    background-color: #ECCB41;
+	font-size: x-large;
+	transform: rotate(45deg);
+}
+.box3:hover {
+    background-color: #ECCB41;
+	font-size: x-large;
+	transform: scaleX(1.2) scaleY(1.2);
+}
+</style>body div {
+}
